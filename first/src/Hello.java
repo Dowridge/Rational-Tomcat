@@ -31,7 +31,7 @@ public class Hello extends HttpServlet {
 		 rational r2 = new rational();
 		 rational r3 = new rational();
 		 r1.set(Integer.parseInt (request.getParameter("r1n")),Integer.parseInt (request.getParameter("r1d")));
-		 r2.set(Integer.parseInt (request.getParameter("r1n")),Integer.parseInt (request.getParameter("r1d")));
+		 r2.set(Integer.parseInt (request.getParameter("r2n")),Integer.parseInt (request.getParameter("r2d")));
 		 r3.add(r1, r2);
 		 out.print("Answer:= " + r3);
 
